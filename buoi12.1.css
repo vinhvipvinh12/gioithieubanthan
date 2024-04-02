@@ -1,0 +1,61 @@
+/*di chuột qua liên kết */
+a:di chuột {
+    màu sắc: rgb(228, 228, 19)
+  }
+  đường dẫn {
+    trang trí văn bản: không có;
+     }
+
+thân hình{
+chiều rộng: 560px;
+}
+div{
+    chiều rộng: 560px;
+    màu nền: rgb(255, 255, 255);
+}
+
+h2{
+Họ phông chữ: roboto, Arial, sans-serif;
+màu: rgb(19, 151, 151);
+cỡ chữ: 22,5px;
+}
+h3{
+    màu sắc: #ffffff;
+}
+#tomtat{
+màu:rgb(9, 9, 9);
+họ phông chữ:roboto, Arial, Narrow Bold;
+kiểu chữ: in nghiêng;
+cỡ chữ: 13px;
+}
+.d2{
+Họ phông chữ: roboto, Arial, sans-serif;
+cỡ chữ: 12px;
+màu:rgb(0, 0, 0);
+màu nền: #ededed, ;
+căn chỉnh văn bản: giữa;
+chiều rộng:560px,
+}
+.chuthich{
+    màu sắc: rgb(66, 68, 189);
+    lề trái: tự động;
+    lề phải: tự động;
+    chiều rộng: 90%;
+    căn chỉnh văn bản: giữa;
+}
+.div2{
+    màu nền: rgb(194, 186, 186);
+
+}
+.anh{
+    hiển thị: khối;
+    lề trái: tự động;
+    lề phải: tự động;
+    chiều rộng: 50%;
+}
+.div3{
+    màu nền: rgb(194, 186, 186);
+}
+P{
+    căn chỉnh văn bản: căn chỉnh;
+}
