@@ -1,0 +1,29 @@
+.tất cả {
+    chiều rộng tối đa: 2000px;
+    lề: 0 tự động;
+  }
+  .bor {
+    
+    đường viền: 1px liền khối #c9c9c9c9;
+    phần đệm: 5px;
+    chiều rộng: 900px;
+    bán kính đường viền: 20px;
+    hiển thị: khối nội tuyến;
+  }
+  .h1{
+    màu nền: rgb(230, 230, 230);
+  }
+  h1{
+    màu đỏ;
+  }
+  .img{
+    đường viền: 1px liền khối #00000011;
+    phần đệm: 5px;
+    nổi: trái;
+    chiều rộng: 200px;
+    chiều cao: tự động;
+  }
+  .anh1 {
+    lề trái: 220px;
+    
+  }
