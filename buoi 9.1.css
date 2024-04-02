@@ -1,0 +1,37 @@
+div {
+    chiều rộng: 700px;
+    lề: tự động;
+    màu:#f0eaea;
+    màu nền: #eee9e9;
+    }
+h2{
+Họ phông chữ: roboto, Arial, sans-serif;
+căn chỉnh văn bản: giữa;
+}
+thân hình {
+chiều cao dòng: 18px;
+Họ phông chữ: roboto, Arial, sans-serif;
+màu nền: #f8f8f8;
+tràn-x: ẩn;
+cỡ chữ: 15px;
+căn chỉnh văn bản: trái;
+}
+.d1{
+Họ phông chữ: roboto, Arial, sans-serif;
+cỡ chữ: 15px;
+màu:rgb(6, 6, 6);
+}
+#tomtat{
+màu:rgb(9, 9, 9);
+họ phông chữ:roboto, Arial, Narrow Bold;
+}
+.d2{
+Họ phông chữ: roboto, Arial, sans-serif;
+cỡ chữ: 12px;
+màu:rgb(0, 0, 0);
+màu nền: #eee9e9;
+căn chỉnh văn bản: giữa;
+}
+hình ảnh{
+chiều rộng: 100%;
+}
