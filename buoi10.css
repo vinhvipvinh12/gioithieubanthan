@@ -1,0 +1,56 @@
+.tất cả {
+    chiều rộng tối đa: 2000px;
+    lề: 0 tự động;
+}
+.bor {
+    
+    đường viền: 1px liền khối #69696911;
+    phần đệm: 5px;
+    chiều rộng: 900px;
+    bán kính đường viền: 20px;
+    hiển thị: khối nội tuyến;
+}
+.h1{
+    màu nền: rgb(230, 230, 230);
+}
+h1{
+    màu sắc: cà chua;
+}
+.img{
+    đường viền: 1px liền khối #00000011;
+    phần đệm: 5px;
+    nổi: trái;
+    chiều rộng: 200px;
+    chiều cao: tự động;
+}
+.cach {
+    lề trái: 220px;
+    
+}
+.ul{
+    lề trên: 40px;
+    danh sách kiểu-hình ảnh: url('ico_arrow.gif');
+    cỡ chữ: 26px;
+}
+.ul1 {
+    lề trên: 134px;
+    danh sách kiểu-hình ảnh: url('ico_arrow.gif');
+    cỡ chữ: 26px;
+}
+a:liên kết, a:đã truy cập{
+    trang trí văn bản: không có;
+}
+P {
+    Họ phông chữ: Arial, Helvetica, sans-serif;
+    cỡ chữ: 26px;
+    lề trên: 5px;
+}
+.anh{
+    đường viền: 1px liền khối #69696911;
+    phần đệm: 5px;
+    chiều rộng: 1800px;
+    bán kính đường viền: 20px;
+}
+hình ảnh{
+    chiều rộng: 290px;
+}
