@@ -1,0 +1,69 @@
+div {
+    chiều rộng: 85%;
+    lề: tự động;
+}
+
+thân hình {
+    chiều rộng: 85%;
+    lề: tự động;
+}
+.hang1{
+    Họ phông chữ: Arial, sans-serif;
+    cỡ chữ: 18px;
+    căn chỉnh văn bản: giữa;
+}
+.Logo{
+    chiều rộng: 100%;
+}
+.tuyensinh{
+    chiều rộng: 100%;
+}
+
+.danhmuc{
+    chiều rộng: 85%;
+    Họ phông chữ: sans-serif;
+    lề: 0 tự động;
+    bán kính đường viền: 5px;
+    chiều cao: 350px;
+}
+.chia{
+    hiển thị: linh hoạt;
+    biện minh-nội dung: không gian đồng đều;
+    căn chỉnh văn bản: giữa;
+}
+.khối{
+    chiều rộng: 22%;
+    màu nền: trắng;
+    bán kính đường viền: 5px;
+    chiều cao: 320px;
+    bóng hộp: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.chặn img{
+    chiều rộng: 100%;
+}
+.chặn a{
+    trang trí văn bản: không có;
+    cỡ chữ: 19px;
+    màu sắc: rgb(255, 138, 71);
+}
+h1{
+    Họ phông chữ: Arial, Helvetica, sans-serif;
+    căn chỉnh văn bản: giữa;
+    màu sắc: rgb(255, 138, 71);
+}
+.hang3{
+    màu nền: rgb(255, 138, 71);
+    chiều rộng: 85%;
+    Họ phông chữ: sans-serif;
+    lề: 0 tự động;
+    bán kính đường viền: 5px;
+    chiều cao: 350px;
+}
+.hang1 a{
+    trang trí văn bản: không có;
+    màu sắc: rgb(70, 70, 70);
+}
+.h1 a{
+    trang trí văn bản: không có;
+    màu sắc: rgb(255, 138, 71);
+}
