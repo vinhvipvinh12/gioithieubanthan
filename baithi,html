@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Layout</title>
+<link rel="stylesheet" href="baithi.css"> 
+</head>
+<body>
+<div class="container">
+    <div class="top">
+        <div class="top-column top-column-1">
+            <h4>THẾ GIỚI ĐÓ ĐÂY</h4>
+        </div>
+        <div class="top-column top-column-2">
+            <h4>CHÙM ẢNH</h4>
+        </div>
+        <div class="top-column top-column-3">
+            <h4>KHÁM PHÁ</h4>
+        </div>
+        <div class="top-column top-column-4">
+            <h4>DỊ</h4>
+        </div>
+        <div class="top-column top-column-5"></div>
+        <div class="top-column top-column-6">
+            <h4>XÃ HỘI</h4>
+        </div>
+        <div class="top-column top-column-7">
+            <h4>ĐỜI SỐNG</h4>
+        </div>
+    </div>
+    <div class="bottom">
+        <div class="bottom-column column-1">
+            <div class="bottom-column-1">
+                <img src="https://anh.24h.com.vn/upload/1-2016/images/2016-01-13/1452670751-1452667726-12546300_1673310822924612_193543445_o.jpg" alt="Image">,
+                <h3>Chàng trai đi tập gym chỉ sau 1 năm bống hóa thành quái vật.</h3> <p>Nếu bạn đã điều chỉnh chế độ tập luyện và chăm chỉ tập luyện của mình trong một năm, thì có thể bạn đã trải qua một sự thay đổi đáng kinh ngạc về cơ thể của mình. Tuy nhiên, việc trở thành một "quái vật" sẽ phụ thuộc vào nhiều yếu tố khác nhau như di chuyển, chế độ ăn uống, lịch trình luyện tập và tốc độ cam kết. Để trở thành một "quá vật" trong phòng tập gym, bạn cần phải tập trung vào cơ bắp tiêu chuẩn và cơ thể giảm mỡ. Điều này có thể hỗ trợ yêu cầu một chế độ luyện tập chuyên sâu, hợp lý cả tim mạch và luyện tập sức mạnh, cùng với một chế độ ăn uống phù hợp để hỗ trợ xây dựng cơ bắp và đốt cháy mỡ. </p>
+            </div>
+        </div>
+        <div class="bottom-column column-2">
+            <div class="sub-column">
+                <img src="https://cdn.tuoitre.vn/thumb_w/1100/471584752817336320/2024/4/3/dong-dat-dai-loan-1-1712143188648778370881.jpeg" alt="Image">
+                <p style="height: 20%;"> vTính đến sáng 4/4, đã có 9 người thiệt mạng và hơn 1.000 người bị thương trong trận động đất ở Đài Loan. Bên cạnh đó là hơn 100 tòa nhà cao tầng bị sập một phần hoặc bị nghiêng. Cục Quản lý Thời tiết Đài Loan nói rằng trận động đất ngày 3/4 là cơn địa chấn mạnh nhất tại hòn đảo này trong vòng 25 năm qua.
+                     cao tầng bị sụp đổ ...</p>
+            </div>
+            <div class="sub-column">
+                <img src="https://cdnmedia.baotintuc.vn/Upload/6mcegl3oh8LdApvdtl5uuQ/files/2020/04/040820-O-nhiem-voi-covid.jpg" alt="Image">
+                <p style="height: 20%;">Ô nhiễm môi trường tại Hà Nội, Việt Nam, đã là một vấn đề nghiêm trọng từ nhiều năm qua. Thành phố này đối mặt với nhiều nguy cơ ô nhiễm khác nhau, bao gồm ô nhiễm không khí, nước và đất đai.
+
+                    Ô nhiễm không khí: Hà Nội thường xuyên gặp phải tình trạng ô nhiễm không khí do nồng độ khí thải từ giao thông, công nghiệp và các nguồn nhiên liệu khác. Đặc biệt vào mùa đông, việc sử dụng nhiều lò sưởi cũng làm tăng thêm</p>
+            </div>
+        </div>
+        <div class="bottom-column column-3">
+            <img src="https://admatrix.vn/wp-content/uploads/2021/09/dich-vu-quang-cao-ngoai-san-facebook-admatrix-agency-size-doc-450x800.png/" alt="Image">
+        </div>
+    </div>
+</div>
+</body>
+</html>
