@@ -1,0 +1,48 @@
+.bo, .layer1, .layer2, .layer3 {
+    width: 200px;
+    height: 200px;
+}
+
+.bo {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.layer1 {
+    top: 0;
+    left: 0;
+    position: absolute;
+    transition: 0.4s;
+}
+
+.bo:hover .layer1 {
+    transform: scale(1.2);
+}
+
+.layer2 {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    transition: 0.4s;
+}
+
+.bo:hover .layer2 {
+    opacity: 0.4;
+    transform: scale(1.2);
+}
+
+.layer3 {
+    position: absolute;
+    top: 90px;
+    left: 55px;
+    color: rgb(252, 252, 253);
+    font-size: 30px;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.bo:hover .layer3 {
+    opacity: 1;}
