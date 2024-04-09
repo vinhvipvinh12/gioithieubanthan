@@ -1,0 +1,74 @@
+.underline-hover {
+    position: relative;
+    font-family: 'Segoe UI';
+    text-decoration: none;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.underline-hover::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 1px;
+    background-color: rgb(243, 6, 6);
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+.underline-hover:hover::before {
+    transform: scaleX(1);
+}
+.gallery {
+    display: flex;
+}
+
+.bo {
+    width: 200px;
+    height: 200px;
+    margin-right: 10px; /* Khoảng cách giữa các ảnh */
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: rgb(6, 2, 2); /* Thêm màu nền đen */
+}
+
+.layer1 {
+    top: 0;
+    left: 0;
+    position: absolute;
+    transition: 0.4s;
+}
+
+.bo:hover .layer1 {
+    transform: scale(1.2);
+}
+
+.layer2 {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    transition: 0.4s;
+}
+
+.bo:hover .layer2 {
+    opacity: 0.4;
+    transform: scale(1.2);
+}
+
+.layer3 {
+    position: absolute;
+    top: 90px;
+    left: 55px;
+    color: rgb(252, 252, 253);
+    font-size: 30px;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.bo:hover .layer3 {
+    opacity: 1;}
