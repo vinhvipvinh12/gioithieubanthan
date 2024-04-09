@@ -1,0 +1,23 @@
+.underline-hover {
+    position: relative;
+    font-family: 'Segoe UI';
+    text-decoration: none;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.underline-hover::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 1px;
+    background-color: rgb(243, 6, 6);
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+.underline-hover:hover::before {
+    transform: scaleX(1);
+}
