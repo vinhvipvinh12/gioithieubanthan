@@ -1,0 +1,87 @@
+/* CSS cho hàng chữ */
+.text-row {
+    text-align: justify; /* Hiển thị các đoạn văn bản từ trái qua phải */
+  }
+  
+  .text-row p {
+    display: inline; /* Hiển thị các đoạn văn bản trên cùng một dòng */
+    transition: text-decoration 0.3s ease; /* Thêm hiệu ứng chuyển đổi */
+    letter-spacing: 1px; /* Tạo khoảng cách 3px giữa các đoạn văn bản */
+  }
+  
+  .text-row p:hover {
+    text-decoration: underline;
+  }
+  
+  /* CSS cho hiệu ứng gạch chân */
+  .underline-hover {
+    position: relative;
+    margin-right: 20px;
+    font-family: 'Segoe UI';
+    text-decoration: none;
+    font-size: 20px;
+    display: inline-block;
+    transition: color 0.3s ease; /* Thêm hiệu ứng màu chữ */
+    color: black; /* Màu chữ mặc định */
+  }
+  
+  .underline-hover::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 100%; /* Thay đổi giá trị này từ 0% thành 100% */
+    bottom: 0;
+    height: 1px;
+    background-color: rgb(32, 7, 7);
+    transition: right 0.3s ease; /* Thêm hiệu ứng di chuyển từ trái sang phải */
+  }
+  
+  .underline-hover:hover::before {
+    right: 0; /* Di chuyển gạch chân từ trái sang phải */
+  }
+  
+  /* CSS cho cột */
+  .column {
+    float: left;
+    width: calc(33.33% - 20px); /* 33.33% với 10px margin mỗi bên */
+    position: relative;
+    margin: 10px; /* Khoảng cách 10px giữa mỗi cột */
+    overflow: hidden; /* Chỉ hiển thị phần ảnh trong phạm vi của cột */
+  }
+  
+  /* CSS cho hình ảnh */
+  .column img {
+    width: 100%;
+    height: auto;
+    
+  }
+  
+  /* CSS cho hiệu ứng khi rê chuột vào hình ảnh */
+  .column .overlay {
+    position: absolute;
+    top: 10%; /* Điều chỉnh vị trí ô vuông so với hình ảnh */
+    right: 10%; /* Điều chỉnh vị trí ô vuông so với hình ảnh */
+    width: 80%; /* Điều chỉnh kích thước của ô vuông */
+    height: 80%; /* Điều chỉnh kích thước của ô vuông */
+    background-color: rgba(255, 255, 255, 0.9); /* Màu trắng với độ mờ là 90% */
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    border-radius: 10px; /* Bo góc */
+    display: flex;
+    justify-content: flex-end; /* Đẩy chữ về góc dưới bên phải */
+    align-items: flex-end; /* Đẩy chữ về góc dưới bên phải */
+    padding: 10px;
+    box-sizing: border-box;
+    
+  }
+  
+  /* CSS cho chữ trong overlay */
+  .overlay-text {
+    color: black;
+    font-size: 14px;
+  }
+  
+  /* CSS cho hiển thị overlay khi hover */
+  .column:hover .overlay {
+    opacity: 1;
+  }
