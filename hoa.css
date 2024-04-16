@@ -1,0 +1,120 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+.header {
+  width: 1500px;
+  height: 48px;
+  background-color: #4d4b4b;
+  border-radius: 100px; /* Bo góc */
+  margin: auto; /* Căn giữa */
+  padding: 20px;
+  text-align: center; /* Căn giữa */
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fafafa; /* Màu chữ */
+}
+
+.navigation {
+  margin-top: 20px;
+}
+
+.navigation a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #f4f4f4; /* Màu chữ */
+  font-size: 18px;
+}
+
+/* Main */
+.main {
+  display: flex;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+.sidebar {
+  flex: 0 0 30%;
+  float: left; /* Di chuyển sang bên phải */
+  text-align: left; /* Căn phải */
+}
+
+.sidebar img {
+  width: 100%;
+  border-radius: 10px; /* Bo góc */
+}
+
+/* Footer */
+.footer {
+  background-color: #f9d4e4; /* Màu hồng nhạt */
+  padding: 20px;
+  text-align: center;
+}
+
+/* Introduction */
+.introduction {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ffffff; /* Màu nền */
+  padding: 20px;
+  text-align: center;
+}
+
+.footer {
+  background-color: #f3e9f4;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer h2 {
+  font-size: 24px;
+  color: #6a0dad;
+}
+
+.flower-types {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.flower-types .flower {
+  flex: 0 0 30%;
+  text-align: center;
+  padding: 10px;
+}
+
+.flower-types img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.flower-types h3 {
+  font-size: 18px;
+  color: #6a0dad;
+  margin-top: 10px;
+}
+
+.buy-now {
+  background-color: #6a0dad;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.highlight {
+  color: #6a0dad;
+  font-weight: bold;
+}
