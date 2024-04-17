@@ -1,0 +1,117 @@
+/* Định dạng chung */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    height: 300px; /* Đặt chiều cao cố định */
+    overflow-y: scroll; /* Cho phép cuộn theo trục Y (chiều dọc) */
+}
+
+/* Header */
+header {
+    background-color: #ffffff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; /* Kích thước vuông */
+    height: 10px; /* Kích thước vuông */
+    border: 2px solid #dcb54a; /* Đường viền đen đậm, độ rộng là 2px */
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.signup {
+    background-color: #f7db06;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transform: translateX(-20px); /* Dịch chuyển 20px sang trái */
+}
+
+.signup a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.signup:hover {
+    background-color: #c19210;
+    cursor: pointer;
+}
+
+/* Main Content */
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.column {
+    flex-basis: calc(20% - 10px); /* Đều nhau và cách nhau 10px */
+    margin-right: 0; /* Loại bỏ khoảng cách cuối cùng */
+    border-radius: 10px; /* Bo góc */
+}
+
+/* Các cột trừ cột cuối cùng */
+.column:not(:last-child) {
+    margin-right: 10px; /* Khoảng cách giữa các cột */
+}
+
+.big-column {
+    flex-basis: 28%; /* Lớn hơn 1 chút */
+    box-shadow: 0px 0px 10px rgba(0, 0, 2, 5); /* Hiệu ứng bóng đổ */
+}
+
+.recipe img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.featured img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.text h2 {
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fdca55;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 2, 5); /* Hiệu ứng bóng đổ */
+}
+
+.advertisement {
+    position: fixed;
+    bottom: 20px; /* Để tránh nằm chồng lên đáy trang */
+    left: 60px; /* Để tránh nằm chồng lên mép trái */
+    width: 900px; /* Kích thước của hình ảnh */
+    height: 150px; /* Kích thước của hình ảnh */
+    border-radius: 5px;
+    background-color: rgb(251, 227, 140);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Hiệu ứng bóng đổ */
+}
